@@ -1,5 +1,5 @@
 import axios from 'axios';
-import { YELP_API_TOKEN } from "@env";
+import { YELP_API_TOKEN } from '@env';
 
 export default axios.create({
   baseURL: 'https://api.yelp.com/v3/businesses',
